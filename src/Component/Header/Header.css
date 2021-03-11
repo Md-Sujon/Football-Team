@@ -1,0 +1,28 @@
+.image{
+    background-image: url('../../image.jpg');
+    background-size:cover;
+    height: 150px;
+    width: auto;
+    
+    }
+    .Header{
+        
+        font-size: 80px;
+        color:rgb(161, 159, 159);
+        text-align: center;
+              /* padding-top: 150px; */
+        font-weight: bold;
+    }
+
+    @media (min-height: 680px), screen and (orientation: portrait) { 
+        .Header{
+        
+            font-size: 40px;
+            color:rgb(161, 159, 159);
+            text-align: center;
+                  padding-top: 40px;
+            font-weight: bold;
+        }
+     }
+
+    
